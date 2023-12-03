@@ -1,4 +1,4 @@
-# Cub3D
+# Cub3D (done in collaboration with [thule-re](https://github.com/thule-re))
 <p align="center"><img src="https://cdn-images-1.medium.com/v2/resize:fit:1200/1*mb0KkzYAZDDSvdYC2MM5hg.jpeg" width="150" height="150" />
 
 #
