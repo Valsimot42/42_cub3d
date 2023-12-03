@@ -1,0 +1,4 @@
+.idea/*
+/obj/*
+/textures/Gui*
+/cub3D
