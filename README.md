@@ -7,8 +7,8 @@
 1) <b>How to use</b>
 2) <b>Introduction</b>
 3) <b>Subject</b>
-5) <b></b>
-6) <b></b>
+5) <b>Settings</b>
+6) <b>Resources</b>
 
 ---
 <h3><b>¤ How to use ¤</b></h3>
@@ -17,7 +17,7 @@
 * Execute `make` in terminal.
 * You can find executable maps in the `maps` folder.
 * Execute the following line in the terminal: `./cub3d maps/map.cub`
-* Use `W A S D` keys to move the player and `arrow keys` to move the camera.
+* Refer to "Settings" for further information.
 
 ---
 <h3><b>¤ Introduction ¤</b></h3>
@@ -144,5 +144,72 @@
 </details>
 
 ---
+<h3><b>¤ Settings ¤</b></h3>
 
+<details>
+  <summary> Maps </summary>
 
+  * You have the option of following maps:
+
+    1\) 42.cub
+
+    2\) map.cub
+
+    3\) map2.cub
+
+    4\) map3.cub
+
+    5\) simple_map.cub
+
+    6\) testing_map.cub
+
+* For example, if you want to run `map3.cub`, your input will be as follows: `./cub3d maps/map3.cub`
+
+</details>
+
+<details>
+  <summary> Textures </summary>
+
+* You can change the textures that will show on the map. To see the available textures you can go
+  to `textures` folder, where you will see the following options:
+
+  1\) 42logo.xpm
+
+  2\) bluestone.xpm
+
+  3\) colorstone.xpm
+
+  4\) dark_tiles.xpm
+
+  5\) greystone.xpm
+
+  6\) light_tiles.xpm
+
+  7\) mossy.xpm
+
+  8\) purplestone.xpm
+
+  9\) redbrick.xpm
+
+  10\) wood.xpm
+
+* If you open one of the maps in `maps` folder, you will see the following structure:
+
+  ```text
+  NO textures/greystone.xpm
+  SO textures/redbrick.xpm
+  WE textures/mossy.xpm
+  EA textures/colorstone.xpm
+  
+  F 100,100,100
+  C 0,0,127
+  ```
+
+* `F` and `C` textures are represented in RGB values (range 0-255) and can be changed at will.
+
+* WARNING: in `textures` folder you will also see .png files. Trying to execute the program with
+  .png files will result in the program not launching. Execute only with .xpm files
+  
+</details>
+
+  
