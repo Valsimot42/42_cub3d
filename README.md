@@ -210,6 +210,8 @@
 
   10\) wood.xpm
 
+  <img width="959" alt="Screen Shot 2023-12-15 at 4 28 29 PM" src="https://github.com/Valsimot42/42_cub3d/assets/104424918/bcc9c81f-0aed-47f6-b4cf-bfdf4ab50d60">
+
 
   
 </details>
