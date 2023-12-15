@@ -164,6 +164,23 @@
     6\) testing_map.cub
 
 * For example, if you want to run `map3.cub`, your input will be as follows: `./cub3d maps/map3.cub`
+  
+* If you open one of the maps in `maps` folder, you will see the following structure:
+
+  ```text
+  NO textures/greystone.xpm
+  SO textures/redbrick.xpm
+  WE textures/mossy.xpm
+  EA textures/colorstone.xpm
+  
+  F 100,100,100
+  C 0,0,127
+  ```
+
+* `F` and `C` textures are represented in RGB values (range 0-255) and can be changed at will.
+
+* WARNING: in `textures` folder you will also see .png files. Trying to execute the program with
+  .png files will result in the program not launching. Execute only with .xpm files
 
 </details>
 
@@ -193,22 +210,7 @@
 
   10\) wood.xpm
 
-* If you open one of the maps in `maps` folder, you will see the following structure:
 
-  ```text
-  NO textures/greystone.xpm
-  SO textures/redbrick.xpm
-  WE textures/mossy.xpm
-  EA textures/colorstone.xpm
-  
-  F 100,100,100
-  C 0,0,127
-  ```
-
-* `F` and `C` textures are represented in RGB values (range 0-255) and can be changed at will.
-
-* WARNING: in `textures` folder you will also see .png files. Trying to execute the program with
-  .png files will result in the program not launching. Execute only with .xpm files
   
 </details>
 
