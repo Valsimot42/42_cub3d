@@ -211,9 +211,32 @@
   10\) wood.xpm
 
   <img width="959" alt="Screen Shot 2023-12-15 at 4 28 29 PM" src="https://github.com/Valsimot42/42_cub3d/assets/104424918/bcc9c81f-0aed-47f6-b4cf-bfdf4ab50d60">
+  Example of different textures on different sides of the wall.
 
+</details>
+
+<details>
+  <summary> Keybinds </summary>
+
+* As this project was done on MacOS, if you go to `inc/keycodes.h` file, you will see several defined keys. They server the next functionality:
+
+  1\) KEY_ESCAPE (65307): Upon pressing `Esc`, the window will destroy itself and the program will stop.
+
+  2\) KEY_W (119): Player moves forwards.
+
+  3\) KEY_A (97): Player moves left.
+
+  4\) KEY_S (115): Player moves backwards.
+
+  5\) KEY_D (100): Player moves right.
+
+  6\) KEY_LEFT (65361): Player camera rotates to the left.
+
+  7\) KEY_RIGHT (65363): Player camera rotates to the right.
+
+  8\) KEY_SHIFT (65505): When held down, player will sprint.
+
+  9\) BUTTON_RMB (3): When pressed, it allows to rotate the camera with the mouse and hides the cursor. When pressed again, cursor reappears and exits the functionality.
 
   
 </details>
-
-  
