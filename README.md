@@ -256,3 +256,24 @@
   5\) MOUSE_SENSITIVITY: adjust the sensitivity of the mouse.
   
 </details>
+
+---
+<h3><b>¤ Resources ¤</b></h3>
+
+<details>
+  <summary> Library </summary>
+
+  * [Raycasting](https://lodev.org/cgtutor/raycasting.html)
+
+  * [Raycasting_2](https://www.playfuljs.com/a-first-person-engine-in-265-lines/)
+
+  * [Line drawing algorithm](https://en.m.wikipedia.org/wiki/Line_drawing_algorithm)
+
+  * [MiniLibX tutorial](https://harm-smits.github.io/42docs/libs/minilibx/getting_started.html)
+
+  * [Colors](https://rgbacolorpicker.com/)
+
+  * [Fisheye](https://gamedev.stackexchange.com/questions/97574/how-can-i-fix-the-fisheye-distortion-in-my-raycast-renderer)
+
+  
+</details>
