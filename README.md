@@ -237,6 +237,22 @@
   8\) KEY_SHIFT (65505): When held down, player will sprint.
 
   9\) BUTTON_RMB (3): When pressed, it allows to rotate the camera with the mouse and hides the cursor. When pressed again, cursor reappears and exits the functionality.
+  
+</details>
 
+<details>
+  <summary> Extra </summary>
+
+* In `inc/cub3d.h` you can also change the following values, depending how you wish to test the program:
+
+  1\) HEIGHT: adjust the height of the window.
+
+  2\) WIDTH: adjust the width of the window.
+
+  3\) FOV: adjust the player's field of view.
+
+  4\) FPS: purely decorational functionality.
+
+  5\) MOUSE_SENSITIVITY: adjust the sensitivity of the mouse.
   
 </details>
